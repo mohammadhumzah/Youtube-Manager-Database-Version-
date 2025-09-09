@@ -50,13 +50,6 @@ Notes:
   rm youtube_manager.db
   ```
 
-## Common fixes
-- If you see extra spaces in stored `time` values, call `.strip()` on inputs before saving:
-  ```python
-  time = input("Enter the video length: ").strip()
-  ```
-- If list prints nothing, ensure `cursor.fetchall()` is used after `cursor.execute(...)`.
-
 ## Development tips
 - To access columns by name instead of tuples:
   ```python
