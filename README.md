@@ -1,6 +1,6 @@
 # Youtube Manager (CLI) — Python + SQLite
 
-Small command-line Youtube Manager that stores video records in a local SQLite database.
+Small command-line Youtube Manager that helps perform CRUD operations in a local SQLite database.
 
 ## Features
 - Add, list, update and delete videos
